@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<title>Simple Memory game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./resources/style-reset.css">
+	<link rel="stylesheet" type="text/css" href="./resources/style.css">
+</head>
+
+<body>
+	<h1>A Simple Memory Game</h1>
+
+	<div id = "btn-container">
+		<button id="btn-rules">Rules</button>
+	</div>
+
+	<div id="rules">
+		<h2>GAME INSTRUCTIONS</h2>
+		
+		<ul>
+			<li>In the given 4x4 board there are a total of 16 delicious food images.</li>
+			<li>Out of 16 there are two sets of 8 unique images.</li>
+			<li>You can turn two cards up at a time to check if they are same images.</li>
+			<li>If they selected cards are same you will get two points.</li>
+			<li>Your goal is to empty the board by matching all the pairs on the board (high score = 16 points).</li>
+			<li>Try to get 16 points in least amount of turns.</li>
+			<li>Have FUN!</li>
+		</ul>
+	</div>
+
+	<div id = "grid-container">
+
+	</div>
+
+	<div id="win">
+		<h2>Wohoooo!</h2>
+		<p>You WON!</p>
+		<p> Wanna Play Again?</p>
+		<div id="playAgain">
+			<button id="playAgainButton">PLAY AGAIN</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./resources/script.js"></script>
+</body>
+
+</html>
